@@ -1,0 +1,10 @@
+Dawkins, S.
+ and Jacobs, J.
+ 
+ (2023),
+ NIST Phish Scale User Guide, Technical Note (NIST TN), National Institute of Standards and Technology, Gaithersburg, MD, [online], https://doi.org/10.6028/NIST.TN.2276, https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=956851 (Accessed September 25, 2026)
+Additional citation formats
+Google Scholar
+DOI
+BibTeX
+RIS

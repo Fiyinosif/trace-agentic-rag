@@ -1,0 +1,374 @@
+Your business can’t afford to lose time, information, or money to cyberattacks. The FTC has the tools you need to protect yourself. Jump to the sections below for cybersecurity tips, suggestions on how to secure your network, and information on recognizing and protecting your business from common cyberattacks.
+Cybersecurity Basics
+The NIST Cybersecurity Framework
+Email Authentication
+Secure Remote Access
+Hiring a Web Host
+Vendor Security
+Cyber Insurance
+Common Cyberattacks
+Cybersecurity Basics
+Cybercriminals target companies of all sizes. Knowing some cybersecurity basics and putting them into practice will help you protect your business and reduce the risk of a cyberattack.
+Protect your data.
+Update software and back up files regularly.
+Set a schedule for updating programs, apps, web browsers, and operating systems. Turn on automatic updates.
+Make it a habit to back up important files regularly. Save your backups in the cloud or on an external hard drive.
+Maintain strong physical security.
+Store paper files or electronic devices with sensitive information in a locked cabinet or room. Limit access to this space to employees who need it.
+Only keep the data you need. If you don’t need documents with sensitive data, shred them before throwing them away. If the data’s stored on a device, use factory reset or software to erase it. Don’t rely on “delete” alone – that doesn’t necessarily remove the files completely.
+Protect devices with strong passwords, and don’t leave devices unattended in public places.
+Require strong passwords to access devices and your network.
+A strong password is at least 12 characters. When it comes to passwords, the longer, the stronger. You may want to use a passphrase, or a series of random words separated by spaces.
+Never reuse passwords and don’t share them on the phone, in texts, or by email.
+Protect against password-guessing (brute-force) attacks by limiting the number of unsuccessful login attempts.
+Encrypt devices, media, and data.
+Encrypt devices and other media that contain sensitive personal information. This includes laptops, tablets, smartphones, removable drives, backup tapes, and cloud storage solutions.
+Also be sure to encrypt any sensitive data you send outside of the company, like data you send to an accountant.
+Use multi-factor authentication.
+Require multi-factor authentication to protect sensitive information. Multi-factor authentication requires users to take additional steps to log on beyond just inputting a password, like:
+Entering a time-sensitive code that appears on an authenticator app on a user’s smartphone, or entering a unique passcode sent to the user’s email address.
+Inserting a hardware token – like a USB device that generates temporary codes – into a user’s computer.
+Using a smartcard such as a Personal Identity Verification (PIV) card.
+Protect your wireless network.
+Secure your router.
+After you set up a router, change the default username and password, turn off remote management, and log out of the administrator account.
+Use at least WPA2 encryption.
+Make sure your router offers WPA2 or WPA3 encryption, and that it’s turned on. Encryption protects information sent over your network so it can’t be read by outsiders.
+Limit the devices that can connect to your network.
+Limit your primary business network to business-owned, operated, or managed devices.
+If you need Wi-Fi access for guests, employee personal devices, or the public, you can follow step-by-step prompts in your network’s admin portal to set up a separate “public” network.
+Password-protect your network.
+Log into your Wi-Fi admin portal and create a strong password for staff to use to connect business-owned, operated, or managed devices to your network.
+Make smart security business as usual.
+Train your staff.
+Create a culture of security by training your employees on a regular schedule.
+Update employees as you find out about new risks and vulnerabilities.
+Remind employees to maintain security practices when working from home or on business travel, and make sure your staff knows what to do if equipment or files are lost or stolen.
+Track employee participation and consider blocking network access if employees don’t attend trainings.
+Have an incident response plan.
+Develop a plan for saving data, running the business, and notifying customers if you experience a breach.
+Check out the FTC’s
+Data Breach Response: A Guide for Business
+for a list of steps you can take.
+The NIST Cybersecurity Framework
+The
+National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF)
+helps businesses of all sizes  — regardless of size, sector, or maturity — better understand, manage, and reduce their cybersecurity risk and protect their networks and data. The latest CSF 2.0 is free, voluntary, and flexible. It is not a one-size-fits-all approach, but it includes an outline of best practices that can help you decide where to focus your time and money.
+Put the NIST CSF 2.0 to work in your business in these six areas: Govern, Identify, Protect, Detect, Respond, and Recover. These areas, when considered together, provide a comprehensive view of managing cybersecurity risk.
+Check out the NIST CSF 2.0 Small Business Quick Start Guide
+and related resources for more information.
+Govern.
+Establish and monitor your business’ cybersecurity risk management strategy, expectations, and policy
+.
+Understand your legal, regulatory, and contractual cybersecurity requirements, as well as how cybersecurity risks can disrupt achievement of your business’s mission.
+Document and track your legal, regulatory, and contractual cybersecurity requirements.
+Determine whether cybersecurity insurance is appropriate for your business.
+Assess cybersecurity risks posed by suppliers and other third parties before entering into formal relationships.
+Create, communicate, update, and enforce the company’s cybersecurity policy.
+Identify.
+Understand what assets your business relies on and identify cybersecurity risks.
+Create, categorize, and maintain an inventory of hardware, software, data, and services your company uses, including laptops, smartphones, point-of-sale devices, programs, applications, and data collected from staff and consumers.
+Identify and document cybersecurity risks to the business, assets, and individuals.
+Assess the effectiveness of the business’s cybersecurity program to identify areas that need improvement.
+Communicate cybersecurity plans, policies, and best practices to all staff and relevant third parties.
+Securely sanitize and destroy data and data storage devices when they’re no longer needed.
+Create a cybersecurity incident response plan.
+Protect.
+Implement safeguards to prevent or reduce cybersecurity risks.
+Control who logs on to your network and uses your computers and other devices.
+Require multi-factor authentication for all employees, contractors, and others who access your network and devices.
+Update security software regularly, automating those updates if possible. Software updates can provide critical security fixes and patches for vulnerabilities.
+Limit access to sensitive assets. Restrict sensitive information access to only those who need it to do their jobs.
+Use security software to protect data.
+Change default manufacturer passwords.
+Encrypt sensitive data at rest and in transit.
+Regularly backup data.
+Train everyone who uses your computers, devices, and network to recognize common attacks and perform basic cyber hygiene tasks. You can help employees understand their personal risk in addition to their crucial role in the workplace.
+Detect.
+Find and analyze possible cybersecurity attacks or compromises.
+Monitor your computers, devices, and software for unauthorized access.
+Investigate any unusual activities on your network or by your staff.
+Check your network for unauthorized users or connections.
+Respond.
+Have plans in place before an incident happens and be ready to execute them in coordination with relevant third parties as required by laws, regulations, or policies while keeping your business up and running. Have the following plans in place and test them regularly:
+Incident Response Plan: How will your business respond to a security incident?
+Disaster Recovery Plan: How will your business respond to an unplanned event and resume operations?
+Business Continuity Plan: How will your business continue to operate during and after a disruption.
+Recover.
+After an attack, restore assets and operations that were impacted by a cybersecurity incident.
+Keep employees, customers, and other key stakeholders informed of your response and recovery activities.
+Update your cybersecurity policy and plan with lessons learned.
+Email Authentication
+Some web host providers let you set up your company’s business email using your domain name (which you may think of as your website name). For example, your domain name might look like yourbusiness.com, and your email may look like name@yourbusiness.com. Without protections in place, scammers can use your domain name to send phishing emails that look like they’re from your business.
+You can help protect your business and customers by using email authentication technology, which makes it a lot harder for scammers to spoof your company’s email. It works by allowing a receiving server to verify emails from your company. Emails from imposters are either blocked or sent to a quarantine folder for further review.
+What to know.
+If your business email uses your company’s domain name, make sure your email provider has these three email authentication tools:
+Sender Policy Framework (SPF).
+SPF verifies that a mail server is allowed to send email for a given domain.
+Domain Keys Identified Mail (DKIM).
+DKIM puts a digital signature on outgoing mail so servers can verify that an email from your domain was sent from your organization’s servers and hasn’t been tampered with in transit.
+Domain-based Message Authentication, Reporting & Conformance (DMARC).
+DMARC is the third essential tool for email authentication. SPF and DKIM verify the address the server uses “behind the scenes.” DMARC verifies that this address matches the “from” address you see. It also lets you tell other servers what to do when they get an email that looks like it came from your domain, but the receiving server has reason to be suspicious (based on SPF or DKIM). You can have receiving servers reject the email, flag it as spam, or take no action. You also can set up DMARC so that you’re notified when this happens.
+It takes some expertise to configure these tools so they work as intended and don’t block legitimate emails. Choose an email provider that can set them up if you don’t have the technical knowledge.
+What to do if your email is spoofed.
+Email authentication lets you know you if someone spoofs your company’s email. If you get a notification that your email has been spoofed:
+Report it.
+Report the scam to local law enforcement, the FBI’s Internet Complaint Crimes Center at
+IC3.gov
+, and the FTC at
+ReportFraud.ftc.gov
+. You can also forward phishing emails to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies).
+Notify your customers.
+If you find out scammers are impersonating your business, tell your customers as soon as possible. If you email your customers, send an email without hyperlinks. You don’t want your notification email to look like a phishing scam. Remind customers not to share any personal information through email or text. If your customers’ data was stolen, direct them to
+IdentityTheft.gov
+to get a recovery plan.
+Alert your staff.
+Give your staff guidance on how to respond to customers. Take this opportunity to update your security practices and train your staff about cyberthreats.
+Secure Remote Access
+Employees and vendors may need to connect to your network remotely. Put your network’s security first. Require employees and vendors to follow strong security standards before they connect to your network. Give them the tools to make security part of their work routine.
+How to protect devices.
+Whether employees or vendors use company-issued or personal devices to connect remotely to your network, those devices should be secure. Follow these tips to increase the security of your devices, and make sure your employees and vendors do as well:
+Router security.
+Change any pre-set router passwords and the default name of your router. Keep the router’s software up to date. Consider signing up for email alerts (if offered) or set a schedule to visit the router’s website to check for updates.
+Encryption.
+Consider enabling full-disk encryption for laptops and other mobile devices that connect remotely to your network. Check your operating system for this option, which will protect any data stored on the device if it’s lost or stolen. This is especially important if the device stores any sensitive personal information.
+Smartphone settings.
+Change smartphone settings to stop automatic connections to public Wi-Fi.
+Software updates.
+Keep all software up to date on any device that connects to your network, including mobile devices.
+Connecting to the network remotely.
+Require employees and vendors to use secure connections when connecting remotely to your network.
+Consider creating a Virtual Private Network (VPN) for employees and vendors to use. VPNs can help protect your business from outside attacks.
+Employees and vendors should use a router with WPA2 or WPA3 encryption when connecting from their homes. Encryption protects information sent over a network so that outsiders can’t read it. WPA2 and WPA3 are the only encryption standards that will protect information sent over a wireless network.
+Maintaining security.
+Train your staff.
+Include information on secure remote access in regular trainings and new staff orientations.
+Have policies in place that cover basic cybersecurity. Give copies to your employees and explain the importance of following them.
+Before letting any device connect to your network, make sure it meets your security requirements.
+Tell your staff about the
+risks of public Wi-Fi
+.
+Give your staff tools to help maintain security.
+Require employees to use unique, complex network passwords and avoid unattended, open workstations.
+Require multi-factor authentication to access areas of your network that have sensitive information. MFA requires users to take additional steps beyond logging in with a password, like using an authenticator app, USB token, PIV card, or a unique passcode sent to a user’s email address.
+If you offer Wi-Fi on your business premises for guests and customers, make sure it’s separate from and not connected to your business network.
+Include provisions for security in your vendor contracts, especially if the vendor will be connecting remotely to your network.
+Hiring a Web Host
+Whether you’re upgrading a website or launching a new business, there are many web hosting options. When comparing services, make security a priority.
+What to look for.
+Transport Layer Security (TLS).
+The service you choose should include the latest version of TLS, which will help protect your customers’ privacy. When TLS is correctly implemented, your URL will begin with https://. TLS also helps make sure the information sent to your website is encrypted. That’s especially important if you ask customers for sensitive information, like credit card numbers or passwords.
+Email authentication.
+Some web host providers let you set up your company’s business email using your domain name. If you don’t have email authentication, scammers can impersonate your domain name and send emails that look like they’re from your business.
+When your business email is set up using your company’s domain name, make sure that your web host can give you these three email authentication tools: Sender Policy Framework (SPF); Domain Keys Identified Mail (DKIM); and Domain-based Message Authentication, Reporting & Conformance (DMARC).
+Certain well-known email services, such as Outlook or Gmail, guarantee that the email system comes with SPF, DKIM, and DMARC authentication methods.
+Software updates.
+Many web host providers offer pre-built websites or software packages designed to make it quick and easy to set up your company’s website. As with any software, it’s essential that you use the latest versions with up-to-date security patches. Make sure you know how to keep the website’s software up to date.
+Website management.
+Clarify from the beginning who will manage your website after it’s built. If a web host provider is managing your website, you may have to go through that provider to make changes.
+What to ask.
+When you’re hiring a web host provider, consider these questions:
+Is TLS included in the hosting plan? Is it included free or offered as a paid add-on? Will you set it up or will the provider help you?
+What security practices or technologies are in place to ensure your website is secure?
+Are the most up-to-date software versions available with the service, and will the provider keep software updated? If it’s your responsibility to keep software updated, is it easy to do?
+If using the web host provider as an email provider, can your business email use your business’s website name? If so, can the provider help you set up SPF, DKIM, and DMARC email authentication technology?
+After the website is set up, who will be able to make changes to it? Will you have to go through the provider? Will you be able to log in and make changes on your own? If you can log in to make changes, is multi-factor authentication available?
+Has the provider experienced any recent breaches? If so, how did it handle them?
+If your website collects visitors’ data, where is that data stored? Is it encrypted? Who can access it?
+Who do you contact for suspicious website activity?
+Vendor Security
+Your business vendors may have access to sensitive information about your business or customers. Make sure they secure their own computers and networks.
+How to monitor your vendors.
+Put it in writing.
+Include  provisions for security – including plans to evaluate and update controls in response to changing threats – in your vendor contracts.
+If there are specific security standards you want your vendor to follow, be specific in your contract and make the terms non-negotiable.
+Consider how you want your vendors to handle data, including how they can use it, share it, or sell it, how long they can keep it, and procedures for deletion.
+Verify compliance.
+Establish processes to conﬁrm that vendors follow your rules. Don’t just take their word for it. An assessment conducted by a third party can be a good way to confirm compliance.
+Make changes as needed.
+Cybersecurity threats change rapidly. Make sure vendors keep their security up to date.
+How to protect your business.
+Control access.
+Put controls on databases with sensitive information. Limit access to a need-to-know basis, and only for the time the vendor needs to do the job. Consider creating a separate database that only holds the datapoints the vendor needs to prevent it from accessing other sensitive information.
+Safeguard your data.
+Use properly-conﬁgured strong encryption. This protects sensitive information as it’s transferred and stored.
+Secure your network.
+Require strong passwords, the longer the stronger. You may want to use a passphrase, or a series of random words separated by spaces. Never reuse passwords, don’t share them, and limit unsuccessful login attempts to prevent password-guessing attacks.
+Use multi-factor authentication.
+Make vendors take additional steps beyond just logging in with a password to access your network (authenticator apps, unique passcodes, tokens, PIV cards, etc.).
+What to do if a vendor has a security breach.
+Contact the authorities and report to relevant industry regulators.
+Report the attack right away to your local police department. If they’re not familiar with investigating information compromises, contact your local FBI office. Also report the attack to your industry’s regulators.
+Confirm the vendor has a fix.
+Depending on the severity of the breach, you may want to cut off access until the vendor fixes the vulnerabilities and ensures your information will be safe. Investigate your network to confirm that the threat actor didn’t use the vendor to get unauthorized access.
+Notify customers.
+If data or personal information was compromised, make sure you notify the affected parties so they can protect themselves from identity theft. Check out
+Data Breach Response: A Guide for Business
+for more information. You can find this guide and other resources at
+ftc.gov/DataBreach
+.
+Cyber Insurance
+Recovering from a cyberattack can be costly. Cyber insurance can help protect your business against losses. If you’re considering cyber insurance, discuss what policy would best ﬁt your company’s needs, including whether you should go with ﬁrst-party coverage, third-party coverage, or both, with your insurance agent.
+Find information at the
+National Association of Insurance Commissioners
+, and consider these tips:
+Coverage.
+Make sure any policy you’re considering will provide coverage in excess of other applicable insurance you already have.
+Your policy should cover different kinds of cyberattacks, including network breaches, theft of personal information, and attacks on data held by vendors and third parties.
+Confirm your policy will cover attacks that come from both outside and inside the United States, and terrorist attacks.
+Know the details.
+Understand the details of your coverage, including whether your provider will:
+Defend you in a lawsuit or regulatory investigation (look for “duty to defend” language).
+Help you pay ransom demands in case of ransomware attacks.
+Oﬀer a 24-hour breach hotline that’s available every day of the year.
+Do you need first-party coverage?
+First-party cyber coverage protects your data, including employee and customer information. This coverage typically includes your business’s costs related to:
+Legal counsel to determine your notiﬁcation and regulatory obligations.
+Recovery and replacement of lost or stolen data.
+Customer notiﬁcation and call center services.
+Lost income due to business interruption.
+Crisis management and public relations.
+Cyberextortion and fraud.
+Forensic services to investigate the breach.
+Fees, ﬁnes, and penalties related to the cyber incident.
+Do you need third-party coverage?
+Third-party cyber coverage generally protects you from liability if a third party brings claims against you. This coverage typically includes:
+Payments to people aﬀected by the breach.
+Claims and settlement expenses relating to disputes or lawsuits.
+Losses related to defamation and copyright or trademark infringement.
+Costs for litigation and responding to regulatory inquiries.
+Other settlements, damages, and judgments.
+Accounting costs.
+Common Cyberattacks
+Making sure you recognize the signs and know what to do when faced with common cyberattacks is an important first line of defense for your business. Here are some tips you can use to protect your business and train your employees.
+Phishing
+You get an email that looks like it’s from someone you know. It seems to be from one of your company’s vendors and tells you to click on a link to update your business account. Should you click? Or maybe the email looks like it’s from your boss and asks for your network password. Should you reply? In either case, probably not. These may be phishing attempts.
+How phishing works.
+You get an email or text.
+It seems to be from someone you know, and it asks you to click a link, or give your password, business bank account, or other sensitive information.
+It looks real.
+It’s easy to spoof logos and make up fake email addresses. Scammers use familiar company names or pretend to be someone you know.
+It’s urgent.
+The message pressures you to act now, or something bad will happen.
+What happens next.
+If you click on a link, download an attachment, or respond, different things could happen.
+Scammers could install ransomware or other programs that can lock you out of your data and spread to the entire network. If you share passwords, scammers now have access to all those accounts.
+A link could open a malicious webpage that looks legitimate and asks you for sensitive information like credentials or banking information. If you share that information, scammers now have it.
+What you can do.
+Before you click on a link, download an attachment, or share your sensitive business information:
+Check it out.
+Look up the website or phone number for the company or person behind the text or email. Make sure that you’re connecting with the real company and not about to download malware or talk to a scammer.
+Check the email for the correct spelling, proper punctuation, and standard spacing. Sometimes glaring errors can point to a potentially malicious email.
+If you right-click on the sender’s email address, you can see their true email address and check for spoofing. If what you see doesn’t appear to be a valid company address, that can be a red flag.
+Hover over links before you click. The URL will either appear near the mouse or in the bottom left-hand corner of the reading pane. This can help you determine the legitimacy of the email.
+If you’re asked to login to your account or customer portal, don’t use the link provided in the email or text you received. Instead, go to the company’s website on your own and login to view your account.
+Search for the company’s  security policies. Most companies have certain types of data that they will never ask customers for over phone or email for security reasons.
+Talk to someone.
+Talking to a colleague or friend might help you figure out if the request is real or a phishing attempt.
+Make a call if you’re not sure.
+Pick up the phone and call the vendor, colleague, or client who sent the email. Confirm that they really need the requested information. Use a number you know to be correct, not the number in the email or text.
+How to protect your business.
+Back up your data.
+Regularly back up your data and make sure those backups are not connected to the network. That way, if a phishing attack happens and hackers access your network, you can restore your data. Make data backup part of your routine business operations.
+Keep all security up to date.
+Always install the latest security patches and updates. Utilize other security tools, like email authentication and intrusion prevention software, and turn on automatic updates when you can.
+Alert your staff.
+Phishing scammers change their tactics often, so make sure you include tips for spotting the latest schemes in your regular training. Consider running phishing simulations to make sure your staff is prepared. Companies like Microsoft and KnowBe4 have free phishing simulators online.
+Deploy a safety net and give employees a way to report.
+Use email authentication technology to help prevent phishing emails from reaching your company’s inboxes in the first place. Make sure employees know how to report emails as spam or phishing if they receive communications they think may be suspicious.
+If you encounter a phishing scheme:
+Alert others.
+Talk to your colleagues and share your experience. Phishing attacks often happen to more than one person in a company.
+Limit the damage.
+Immediately change any compromised passwords and disconnect any computer or device that’s infected with malware from the network.
+Follow your company’s procedures.
+These may include notifying specific people in your organization or contractors that help you with IT.
+Notify customers.
+If data or personal information was compromised, make sure you notify the affected parties. They could be at risk of identity theft. Find information on how to do that at
+Data Breach Response: A Guide for Business
+.
+Report it.
+Forward phishing emails to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies). Inform the company or person that was impersonated about the phishing scheme. And report it to the FTC at
+ReportFraud.ftc.gov
+.
+Ransomware
+Someone in your company gets an email. It looks legitimate, but with one click on a link or download of an attachment, everyone’s locked out of your network. The link or attachment downloaded software that holds your data hostage. This phishing email led to a ransomware attack.
+In a ransomware attack, cybercriminals ask for money or cryptocurrency. Even if you pay, the attackers may keep your data or destroy your files. With the information you need to run your business and sensitive details about your customers, employees, and company in criminal hands, ransomware can take a serious toll.
+How it happens.
+Cybercriminals start ransomware attacks in different ways.
+Most ransomware attacks start with phishing or scam emails with links and attachments that put your data and network at risk.
+Cybercriminals can also exploit server vulnerabilities to access your network.
+Infected websites can automatically download malicious software onto your computer.
+Online ads may contain malicious code, even on websites you know and trust.
+Protocols designed to provide remote access to computers, such as remote desktop protocol (RDP) and virtual networking computing (VNC), may allow cybercriminals to gain access to computers to download malicious software.
+How to protect your business.
+Have a plan to keep your business up and running after a ransomware attack and share it with everyone who needs to know.
+Regularly save important files and a full backup of your environment (files, programs, current operating system) to a drive or server that’s not connected to your network.
+Keep your security up to date. Install the latest patches and updates and use additional means of protection like email authentication and intrusion prevention software. If you can, set everything to update automatically.
+Teach your staff how to avoid phishing scams and show them some of the common ways computers and devices become infected. Include tips for spotting and protecting against ransomware in your regular orientation and training.
+What to do if you’re attacked.
+Limit the damage.
+Immediately disconnect infected devices from your network without powering them down. Certain information useful for investigation may be lost if you power down devices.
+Launch an investigation.
+Use experienced IT or cybersecurity staff or contract a third-party cybersecurity company to investigate the breach. The investigation should determine who the hacker is, how they gained access, what data or systems they accessed, and other relevant details. The investigation team can also help you quarantine affected computers from the network, so the rest of your network is protected. The team should also help with mitigation activities, including fixing the vulnerability or issue that allowed the hacker to breach the company.
+Contact the authorities.
+Report the attack to your local FBI office and appropriate industry regulators.
+Keep your business running.
+Now’s the time to implement that plan you created. Having your data backed up will help.
+Consider how to handle ransom demands.
+Law enforcement doesn’t recommend paying ransom, but it’s up to you to determine whether the risks and costs of paying are worth the possibility of getting your files back or having sensitive information exposed. Remember that paying ransom does not guarantee you get your data back. If your business regularly backs up and stores your data off your network, you can restore files from those backups.
+Notify customers.
+If your data or personal information was compromised, make sure you notify the affected parties. They could be at risk of identity theft. Find information on how to do that at
+Data Breach Response: A Guide for Business
+.
+Business Email Imposters
+A scammer sets up an email address that looks like it’s from your company. Then the scammer sends out messages using that email address. This practice is called spoofing, and the scammer is what we call a business email imposter.
+Scammers do this to get credentials, like usernames and passwords, and bank account numbers, or to get someone to send them money. If this happens, your company has a lot to lose.
+How to protect your business.
+Use email authentication.
+When you set up your business’s email, make sure the email provider offers email authentication technology. That way, when you send an email from your company’s server, the receiving servers can confirm that the email is really from you. If it’s not, the receiving servers may block the email and foil a business email imposter.
+Keep your security up to date.
+Always install the latest patches and updates. Set them to update automatically. Use other tools and technology to help, like intrusion prevention software, which checks your network for suspicious activity and sends you alerts if it finds any.
+Train your staff.
+Teach employees how to avoid scams and show them some of the common ways attackers can infect computers and devices with malware. Include tips for spotting and protecting against cyberthreats in your regular employee trainings and communications.
+Implement verification policies.
+Put internal policies in place for verifying certain requests. For example, require your employees to call and confirm wire transfer requests that they receive through email.
+Give people a way to report issues.
+Include steps on your website that people can follow to verify whether an email is coming from your company or report a spoofed company email.
+What to do if someone spoofs your email.
+Report it.
+Report the scam to local law enforcement, the FBI’s Internet Complaint Crimes Center at
+IC3.gov
+, and the FTC at
+ReportFraud.ftc.gov
+. Forward phishing emails to reportphishing@apwg.org (an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies).
+Notify your customers.
+If you find out scammers are impersonating your business, tell your customers as soon as possible. If you email your customers, don’t include hyperlinks. You don’t want your notification email to look like a phishing scam. Remind customers not to share any personal information through email or text. If your customers’ data was stolen, direct them to
+IdentityTheft.gov
+to get a recovery plan.
+Alert your staff.
+Take this opportunity to update your security practices and train your staff about cyberthreats.
+Tech Support Scams
+You get a phone call, pop-up, or email telling you there’s a problem with your computer or device. Often, scammers are behind these messages and alerts. They want to get your money, personal information, or access to your files. This can harm your network, put your data at risk, and damage your business.
+How the scam works.
+The scammers may pretend to be from a well-known tech company, like Microsoft. They use technical terms to convince you that there are problems with your computer. They may ask you to open files or run a scan on your computer, and then tell you those files or the scan results show a problem…but there isn’t one. The scammers may then:
+Ask you to give them remote access to your computer, which lets them access all information stored on it, and on any network connected to it.
+Try to enroll you in a worthless computer maintenance or warranty program.
+Install malware that gives them access to your computer and sensitive data, like usernames and passwords.
+Try to sell you software or “repair” services and then ask for credit card information so they can bill you.
+Direct you to websites and ask you to enter credit card, bank account, and other personal information.
+How to protect your business.
+If a caller says your computer has a problem, hang up. A tech support call you don’t expect is likely a scam, even if the number is local or looks legitimate. Scammers use fake caller ID information to look like local businesses or trusted companies.
+If you get a pop-up message to call tech support, ignore it. Some pop-up messages about computer issues are legitimate, but do not call a number or click on a link that appears in a pop-up message warning you of a computer problem.
+If you’re worried about a virus or other threat, call your security software company directly, using the phone number on company’s website, the sales receipt, or the product packaging. Or consult a trusted security professional.
+Never give someone your password, and don’t give remote access to your computer to someone who contacts you unexpectedly.
+What to do if you’re scammed.
+If you shared your password with a scammer, change it on every account that uses that password. Remember to use unique passwords for each account and service. Consider using a password manager.
+Get rid of malware. Update or download legitimate security software. Scan your computer and delete anything the software says is a problem. If you need help, consult a trusted security professional.
+If the affected computer is connected to your network, disconnect it by turning off Wi-Fi to the computer or unplugging the ethernet cord. Then, you or a security professional should check the entire network for intrusions.
+If you bought bogus services, ask your credit card company to reverse the charges, and check your statement for any charges you didn’t approve. If you provided credit card information to a scammer, ask your credit card company to cancel your card and send you a new one. Keep checking your credit card statements to make sure the scammer doesn’t try to re-charge you.
+Report the attack right to the FTC at
+ReportFraud.ftc.gov
+.
+September 2025
+Return to top

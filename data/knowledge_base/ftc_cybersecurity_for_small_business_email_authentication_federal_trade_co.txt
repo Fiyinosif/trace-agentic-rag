@@ -1,0 +1,74 @@
+As a business person, you know about phishing, of course. At first glance, the email looks like it comes from a recognized company, complete with a familiar logo, slogan, and URL. But it’s really from a cyber crook trying to con consumers out of account numbers, passwords, or cash. In addition to the serious injury these scams inflict on consumers, there’s another victim of phishing: the reputable business whose good name was stolen by the scammer.
+Fraudsters don’t just masquerade as global financial institutions or industry giants. They impersonate small businesses, too. But there is good news on the fraud-fighting front. There are steps you can take to make it harder for scammers to send phishing emails that look like they’re coming from your company. Tech types use the phrase “email authentication” to refer to tools that work behind the scenes to help a server verify that a message that says it’s from
+yourbusiness.com
+really is from you. Those tools also will block messages or send them to a quarantine folder if they bear the telltale signs of a phishing attempt.
+When we sat down with small businesses to see how we can help your cybersecurity efforts, you asked for more information about email authentication. The FTC’s
+Cybersecurity for Small Business
+campaign features
+new resources
+designed to fill that need.
+WHAT YOU NEED TO KNOW ABOUT EMAIL AUTHENTICATION
+Some web host providers let you set up your company’s business email using your domain name. In other words, if your domain name is
+yourbusiness.com
+, your email will be
+name[at]yourbusiness.com
+. Without email authentication, scammers can use your domain name to send emails that look like they’re from your business. To foil their efforts, make sure your email provider uses these three email authentication tools.
+SPF (Sender Policy Framework).
+SPF lets you choose specific IP addresses that are authorized to send emails using your domain. When a receiving server gets an email from
+name[at]yourbusiness.com
+, it will check to see if the sending server is on that approved list. If it is, the receiving server lets the message through. If it isn’t, the email can be flagged as suspicious.
+DKIM (Domain Keys Identified Mail).
+DKIM puts a digital signature on your outgoing mail. Receiving servers can use it to verify that a message from your domain was actually sent from your company’s server and didn’t make any questionable detours in transit.
+DMARC (Domain-based Message Authentication Reporting & Conformance).
+DMARC is the essential third tool for email authentication. SPF and DKIM verify the address the server uses behind the scenes. DMARC verifies that it matches the “from” address the recipient will see. DMARC plays another key role. It lets you tell servers what to do if they get an email that looks like it came from your domain, but based on SFP and DKIM, they have reason to be suspicious. You can have other servers reject the email, flag it as spam, or take no action. You also can set up DMARC to notify you when this happens.
+It can take some know-how to get SPF, DKIM, and DMARC up and running so they work as intended and don’t block legitimate emails. If you’re not sure you have the expertise, have your email hosting provider set them up. If they balk – or if they don’t include those fundamental protection tools in their service agreement – consider taking your business elsewhere.
+WHAT TO DO IF YOUR EMAIL IS SPOOFED
+If your email authentication tools are operating on all cylinders, you’ll get a notice if someone spoofs your email. Here’s how to respond:
+Report the scam.
+Contact local law enforcement, the FBI’s Internet Crime Complaint Center at
+IC3.gov
+, and the FTC at
+FTC.gov/Complaint
+. Forward phishing emails to
+spam@uce.gov
+, an address used by the FTC, and to
+reportphishing@apwg.org
+, an address used by the Anti-Phishing Working Group, which includes ISPs, security vendors, financial institutions, and law enforcement agencies.
+Notify your customers.
+Contact them ASAP by mail, email, or social media. (If you email them, don’t include hyperlinks. You wouldn’t want your notification message to look like another phishing attempt.) Remind customers not to share personal information through email or text. If their data was stolen, direct them to
+IdentityTheft.gov
+.
+Alert your staff.
+Use the experience to update your security practices and train your staff about cyber threats. Distribute the
+FTC’s fact sheet on email authentication
+. Show
+this video
+at your next staff meeting for tips on how to respond if your email is spoofed. And here’s another
+video
+that takes a deeper dive into the technology behind email authentication.
+Tags:
+Consumer Protection
+Bureau of Consumer Protection
+Privacy and Security
+Data Security
+Small Business
+Comments closed.
+More from the Business Blog
+Business Blog
+Announcing the Bureau of Consumer Protection’s New Guidance Program
+Christopher Mufarrige, Director, Bureau of Consumer Protection
+September 10, 2026
+Business Blog
+Veterans: Here’s help to protect your small business
+BCP Staff
+July 20, 2026
+Business Blog
+Back up those earnings claims — and other lessons from the FTC’s Labor Task Force work
+BCP Staff
+June 16, 2026
+Business Blog
+Take It Down Act enforcement starts now: What to know about the FTC and TIDA
+Christopher G. Mufarrige
+May 19, 2026
+Get Business Blog updates
+Return to top

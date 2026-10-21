@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trace — Evidence-Aware Phishing Assessment</title>
+  <style>
+    :root {
+      --bg: #0b1120;
+      --panel: #151e30;
+      --panel-light: #1c2940;
+      --border: #304058;
+      --text: #edf2fa;
+      --muted: #9baec8;
+      --accent: #64a5ff;
+      --green: #53d6a0;
+      --yellow: #f7bd62;
+      --red: #ff7878;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      line-height: 1.55;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px max(24px, calc((100% - 1150px) / 2));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span { color: var(--accent); }
+
+    .subtitle, .muted {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    main {
+      max-width: 1150px;
+      margin: auto;
+      padding: 40px 22px 80px;
+    }
+
+    .hero { margin-bottom: 28px; }
+
+    h1 {
+      font-size: clamp(28px, 4vw, 39px);
+      margin: 0 0 10px;
+      letter-spacing: -1px;
+    }
+
+    h2 { margin: 0 0 16px; font-size: 19px; }
+    h3 { margin: 0 0 8px; font-size: 15px; }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 690px;
+      margin: 0;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      min-width: 0;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 260px;
+      resize: vertical;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 16px;
+      color: var(--text);
+      font: inherit;
+      font-size: 14px;
+      outline: none;
+    }
+
+    textarea:focus { border-color: var(--accent); }
+
+    button {
+      font: inherit;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .primary {
+      background: var(--accent);
+      border: 0;
+      color: #07111f;
+      padding: 12px 22px;
+      font-weight: 700;
+    }
+
+    .primary:hover { filter: brightness(1.1); }
+    .primary:disabled { opacity: .5; cursor: wait; }
+
+    .samples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 15px 0 22px;
+    }
+
+    .sample {
+      background: var(--panel-light);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+
+    .sample:hover { border-color: var(--accent); }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .toggle {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+    }
+
+    input[type="checkbox"] {
+      accent-color: var(--accent);
+      width: 17px;
+      height: 17px;
+    }
+
+    .info {
+      display: grid;
+      gap: 16px;
+    }
+
+    .info-item {
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--panel-light);
+    }
+
+    .info-item strong {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    .info-item p {
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .results { margin-top: 24px; }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .risk {
+      display: inline-block;
+      padding: 5px 11px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+    }
+
+    .risk.high { color: var(--red); border-color: var(--red); }
+    .risk.medium { color: var(--yellow); border-color: var(--yellow); }
+    .risk.low { color: var(--green); border-color: var(--green); }
+
+    .assessment {
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-size: 14px;
+      line-height: 1.85;
+      color: var(--text);
+      margin-top: 18px;
+    }
+
+    .evidence-list { display: grid; gap: 12px; }
+
+    details {
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--panel-light);
+      padding: 15px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .evidence-body {
+      font-size: 13px;
+      color: var(--muted);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      margin-top: 14px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    a { color: var(--accent); overflow-wrap: anywhere; }
+
+    .status {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 14px;
+    }
+
+    .error { color: var(--red); }
+
+    .full { grid-column: 1 / -1; }
+
+    .hidden { display: none; }
+
+    @media (max-width: 800px) {
+      .layout { grid-template-columns: 1fr; }
+      .card { padding: 18px; }
+      header { padding: 18px 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Trace<span>.</span></div>
+    <div class="subtitle">Evidence-aware phishing investigation</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Investigate suspicious messages.</h1>
+      <p>
+        Trace analyzes suspicious communications, retrieves
+        cybersecurity guidance, and checks whether its
+        conclusions are supported by evidence.
+      </p>
+    </section>
+
+    <div class="layout">
+      <section class="card">
+        <h2>Message investigation</h2>
+        <p class="muted">
+          Paste a suspicious email, SMS, or message below.
+          Use synthetic examples rather than confidential data.
+        </p>
+
+        <textarea id="message" placeholder="Paste the suspicious message here..."></textarea>
+
+        <div class="samples">
+          <button class="sample" onclick="loadSample('microsoft')">
+            Microsoft impersonation
+          </button>
+          <button class="sample" onclick="loadSample('bank')">
+            Bank alert
+          </button>
+          <button class="sample" onclick="loadSample('delivery')">
+            Delivery scam
+          </button>
+        </div>
+
+        <div class="controls">
+          <label class="toggle">
+            <input type="checkbox" id="verifier" checked>
+            Enable evidence verification
+          </label>
+          <button class="primary" id="analyze-btn" onclick="analyzeMessage()">
+            Analyze message
+          </button>
+        </div>
+
+        <div class="status" id="status"></div>
+      </section>
+
+      <aside class="card">
+        <h2>How Trace works</h2>
+
+        <div class="info">
+          <div class="info-item">
+            <strong>01 · Evidence retrieval</strong>
+            <p>
+              Hybrid BM25 and semantic search retrieve
+              relevant cybersecurity documentation.
+            </p>
+          </div>
+
+          <div class="info-item">
+            <strong>02 · Evidence reranking</strong>
+            <p>
+              A cross-encoder ranks retrieved passages
+              for relevance to the suspicious message.
+            </p>
+          </div>
+
+          <div class="info-item">
+            <strong>03 · Claim verification</strong>
+            <p>
+              When enabled, Trace checks assessment claims
+              against the retrieved evidence.
+            </p>
+          </div>
+
+          <div class="info-item">
+            <strong>04 · Final assessment</strong>
+            <p>
+              Trace reports risk indicators, supporting
+              evidence, uncertainty, and safe actions.
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <section class="card full results hidden" id="results">
+        <div class="result-header">
+          <h2>Investigation result</h2>
+          <div>
+            <span class="risk" id="risk">Assessment</span>
+            <span class="muted" id="verification-status"></span>
+          </div>
+        </div>
+
+        <div class="assessment" id="assessment"></div>
+        <div class="status" id="latency"></div>
+      </section>
+
+      <section class="card full hidden" id="evidence-section">
+        <h2>Retrieved evidence</h2>
+        <p class="muted">
+          Source passages used during analysis.
+          Retrieval does not guarantee that a passage
+          supports every claim in the assessment.
+        </p>
+        <div class="evidence-list" id="evidence-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const samples = {
+      microsoft: `From: Microsoft IT Support
+support@micros0ft-security.com
+
+URGENT: Your Microsoft account will be suspended today.
+Verify your account immediately:
+https://microsoft-login.example.com
+
+Enter your username and password.`,
+
+      bank: `From: Account Security Team
+
+We detected suspicious activity on your bank account.
+Your account will be locked within 30 minutes.
+
+Confirm your identity immediately:
+https://bank-security.example.com
+
+Enter your login credentials to avoid suspension.`,
+
+      delivery: `Delivery Notification
+
+We could not deliver your package because your
+address is incomplete.
+
+Pay a small redelivery fee immediately:
+https://parcel-update.example.com
+
+Failure to act today will result in your package
+being returned.`
+    };
+
+    function loadSample(name) {
+      document.getElementById("message").value = samples[name];
+    }
+
+    function detectRisk(assessment) {
+      const match = assessment.match(
+        /\b(?:risk assessment|risk)\s*[:* ]+\s*(high|medium|low|inconclusive)\b/i
+      );
+
+      return match ? match[1].toUpperCase() : "NOT EXTRACTED";
+    }
+
+    function addEvidence(item) {
+      const details = document.createElement("details");
+      const summary = document.createElement("summary");
+
+      summary.textContent =
+        `${item.evidence_id} · ${item.source}`;
+
+      const body = document.createElement("div");
+      body.className = "evidence-body";
+      body.textContent = item.content;
+
+      const meta = document.createElement("p");
+      meta.className = "muted";
+      meta.textContent = `Organization: ${item.organization}`;
+
+      details.appendChild(summary);
+      details.appendChild(meta);
+
+      if (
+        item.source_url &&
+        /^https?:\/\//i.test(item.source_url)
+      ) {
+        const link = document.createElement("a");
+        link.href = item.source_url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "Open original source";
+        details.appendChild(link);
+      }
+
+      details.appendChild(body);
+      return details;
+    }
+
+    async function analyzeMessage() {
+      const message = document.getElementById("message").value.trim();
+      const useVerifier = document.getElementById("verifier").checked;
+      const button = document.getElementById("analyze-btn");
+      const status = document.getElementById("status");
+
+      if (!message) {
+        status.textContent = "Please enter a message first.";
+        status.className = "status error";
+        return;
+      }
+
+      button.disabled = true;
+      button.textContent = "Analyzing...";
+      status.className = "status";
+      status.textContent = "Retrieving evidence and generating assessment...";
+
+      document.getElementById("results").classList.add("hidden");
+      document.getElementById("evidence-section").classList.add("hidden");
+
+      try {
+        const response = await fetch("/analyze", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            message: message,
+            use_verifier: useVerifier
+          })
+        });
+
+        if (!response.ok) {
+          let detail = `HTTP ${response.status}`;
+          try {
+            const error = await response.json();
+            detail = error.detail || detail;
+          } catch (_) {}
+          throw new Error(detail);
+        }
+
+        const data = await response.json();
+
+        document.getElementById("assessment").textContent =
+          data.assessment;
+
+        const risk = detectRisk(data.assessment);
+        const riskElement = document.getElementById("risk");
+        riskElement.textContent = risk;
+        riskElement.className =
+          "risk " + risk.toLowerCase();
+
+        document.getElementById("verification-status").textContent =
+          data.verification_enabled
+            ? " · Verification enabled"
+            : " · Baseline mode";
+
+        document.getElementById("latency").textContent =
+          `Analysis completed in ${(data.latency_ms / 1000).toFixed(2)} seconds`;
+
+        const evidenceList = document.getElementById("evidence-list");
+        evidenceList.replaceChildren();
+
+        for (const item of data.evidence) {
+          evidenceList.appendChild(addEvidence(item));
+        }
+
+        document.getElementById("results").classList.remove("hidden");
+        document.getElementById("evidence-section").classList.remove("hidden");
+
+        status.textContent = "Investigation completed.";
+
+      } catch (error) {
+        status.className = "status error";
+        status.textContent = `Analysis failed: ${error.message}`;
+      } finally {
+        button.disabled = false;
+        button.textContent = "Analyze message";
+      }
+    }
+  </script>
+</body>
+</html>

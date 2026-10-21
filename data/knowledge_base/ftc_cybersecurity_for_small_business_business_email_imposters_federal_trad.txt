@@ -1,0 +1,62 @@
+When cyber crooks send messages trying to trick people into disclosing passwords or account information, they often mimic a recognizable email address to make it look like it’s coming from a trusted source – for example, from your company. It’s a practice called spoofing and it packs a double wallop. Not only does it put consumers at risk for identity theft, but spoofing can unfairly damage the reputation for trust you’ve worked hard to earn.
+What can you do to protect your company and your customers from
+business email imposters
+? That’s just one of the topics covered in the FTC’s new
+cybersecurity resources for small business
+.
+How To Protect Your Business
+When you set up your business’s email, make sure the provider offers
+email authentication
+technology. What’s email authentication? As a message passes from your company’s server to a receiving server, there are behind-the-scenes ways to verify that it’s really coming from you. If it’s not, the receiving server can foil a business email imposter by blocking the message or sending it to a quarantine file. Before selecting a web host, make sure they use multiple email authentication tools. (More about
+email authentication
+coming soon.)
+Another key step is to keep your security current. Install the latest patches and updates and set them to update automatically on your network. Consider additional means of protection like intrusion prevention software, which checks your network for suspicious activity and alerts you if something looks amiss.
+As important as it is to take a technological belt-and-suspenders approach, your company’s cybersecurity is only as strong as your least vigilant employee. Train your staff to spot cyber threats and reinforce your security message with periodic refreshers and updates. There’s no need to start from scratch. The FTC’s new
+cybersecurity campaign for small business
+has factsheets, quizzes, videos, and a
+discussion guide
+to help with your in-house training efforts.
+What To Do If Someone Spoofs Your Email
+If a business email imposter has stolen your good name, report it to local law enforcement, the FBI’s Internet Crime Complaint Center at
+IC3.gov
+, and the FTC at
+FTC.gov/complaint
+. Forward phishing emails to the FTC’s spam emailbox,
+spam@uce.gov
+, and to
+reportphishing@apwg.org
+, an address used by the Anti-Phishing Working Group, which includes ISPs, security professionals, financial institutions, and law enforcement agencies.
+If you learn that scammers are impersonating your business, tell your customers as soon as possible by mail, email, or social media. (If you use email, send it without hyperlinks so it doesn’t look like a phishing scam.) Remind customers that you’ll never ask them in an email or text for their credit card or bank account number, Social Security number, or other confidential information – and they shouldn’t include it in any reply. If your customers’ data was stolen, direct them to
+IdentityTheft.gov
+to get a recovery plan.
+Even if your company’s name hasn’t been misappropriated, use your client newsletter and social media presence to alert customers to the dangers of email imposters. The FTC has
+a factsheet
+on protecting your business from this cyber threat.
+Next:
+Tech support scams
+Tags:
+Consumer Protection
+Bureau of Consumer Protection
+Privacy and Security
+Data Security
+Small Business
+Comments closed.
+More from the Business Blog
+Business Blog
+Announcing the Bureau of Consumer Protection’s New Guidance Program
+Christopher Mufarrige, Director, Bureau of Consumer Protection
+September 10, 2026
+Business Blog
+Veterans: Here’s help to protect your small business
+BCP Staff
+July 20, 2026
+Business Blog
+Back up those earnings claims — and other lessons from the FTC’s Labor Task Force work
+BCP Staff
+June 16, 2026
+Business Blog
+Take It Down Act enforcement starts now: What to know about the FTC and TIDA
+Christopher G. Mufarrige
+May 19, 2026
+Get Business Blog updates
+Return to top
