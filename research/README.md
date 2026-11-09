@@ -5,6 +5,7 @@ Fiyinfoluwa Osifala · Department of Computer Science, Southeastern Louisiana Un
 Independent Research · October 2026
 
 📄 **Paper:** [Trace_IEEE_Style_October_2026.pdf](Trace_IEEE_Style_October_2026.pdf)
+🔗 **DOI:** [10.5281/zenodo.24074579](https://doi.org/10.5281/zenodo.24074579) — permanent record on Zenodo
 
 ## What this study asks
 
@@ -58,6 +59,8 @@ The code in this repo is the Trace system evaluated in the paper: retrieval (hyb
   year         = {2026},
   month        = oct,
   note         = {Independent Research, Department of Computer Science,
-                  Southeastern Louisiana University}
+                  Southeastern Louisiana University},
+  doi          = {10.5281/zenodo.24074579},
+  url          = {https://doi.org/10.5281/zenodo.24074579}
 }
 ```
